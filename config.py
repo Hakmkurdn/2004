@@ -5,26 +5,26 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578"))
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")
-BOT_TOKEN = getenv("BOT_TOKEN", "5385370603:AAHjSbZFL1OLl_uOm3v8lS0iKSYhRJS_bKs")
-SESSION_NAME = getenv("SESSION_NAME", "AgAGFRW8AN9biZhAIB_X7rubbTCwNtc48oa-geXlaVsQbV9M1emAEV_iGPw_W-lNP1HGbOuQgF9NAUIxlp8-6rgN16-7Upuhst2wCxewyx0VP7Cxb5k_9EXap6_xeU2v4So9RZMt95XYxhGc4hWO_ikd9P46iHLMjXW8GjQAnGvY-bIrM6XqIXF1yeC3vixEa8knOHGkedZU3FYyLhEILy8TV6eH5jOGvsyw5o7xFElb2zZId_vlYO--B3xSWIMUR6zyH8wozehe9tIn0jZptYjY1rqWOMoYS9wtqvBThVazL60nrgL-KdikJC9beDJLLR0C-wzuAtARPCZ-JK6oG-gVAAAAAUM3evYA")
+API_ID = int(getenv("API_ID", "24325615"))
+API_HASH = getenv("API_HASH", "be5835a24d0cdaedc1cd256def4f9957")
+BOT_TOKEN = getenv("BOT_TOKEN", "5497887119:AAGLz5H5aprth55WfYZdsfkR0KBNSIk4z8w")
+SESSION_NAME = getenv("SESSION_NAME", "1BJWap1wBu6bvBTzYY08lkx4_Sf8BoK51sG-eShFvde2JLUTMjJfYVvjgWvvEo_SbxjuSrxd0KSUWTp6zLYec7_YL74EUk6aCE4lDA9T2hejOJQVLuWRzi5zEmPuireJV6FklNKQyJTs2h55ZHo_ScMBRFESpWtEwxA6hZKmOdFJM9osCl_ZYryIoZYMGMha9nguezpzX8AAl-HBHlSPr3w7SfNQGRJbp2OgtS7VIJFRhIwKm0o6hOnCQcjbi63dxRPE2OE4SUz-vhVaf8ptZ4F3IiSc2QXoVdCwR3FUABc8jcAETWRe5_8nWQGMmkuNt0IBfLoF3KreGv5Jj2vIXDA7pBG94xpc=")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "c_l_h")
 ALIVE_NAME = getenv("ALIVE_NAME", "song")
-BOT_USERNAME = getenv("BOT_USERNAME", "W7MBoT")
+BOT_USERNAME = getenv("BOT_USERNAME", "Gotcar_bot")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/STKR2/2004")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "W_1_4")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "W_1_4")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5355696037").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5474599634").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
